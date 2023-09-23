@@ -1,5 +1,6 @@
 import React from "react";
 import NavLinks from "./NavLinks";
+import UserLinks from "./UserLinks";
 
 
 const Navbar = ()=>{
@@ -16,7 +17,10 @@ const Navbar = ()=>{
             <div className="flex justify-center items-center mx-auto">
                 <NavLinks />
             </div>
-            <div></div>
+
+            <div>
+                <UserLinks />
+            </div>
         </div>
     )
 };
